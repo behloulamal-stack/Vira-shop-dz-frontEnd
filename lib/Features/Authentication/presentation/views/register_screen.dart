@@ -4,17 +4,16 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 import 'package:vira_shop_dz/Features/Authentication/presentation/bloc/cubit/auth_cubit.dart';
 
-
 enum UserRole { merchant, customer }
 
-class RegisterScreen extends StatefulWidget {
-  const RegisterScreen({super.key});
+class SignUpScreen extends StatefulWidget {
+  const SignUpScreen({super.key});
 
   @override
-  State<RegisterScreen> createState() => _RegisterScreenState();
+  State<SignUpScreen> createState() => _SignUpScreenState();
 }
 
-class _RegisterScreenState extends State<RegisterScreen> {
+class _SignUpScreenState extends State<SignUpScreen> {
   UserRole? selectedRole;
 
   Widget roleCard({
