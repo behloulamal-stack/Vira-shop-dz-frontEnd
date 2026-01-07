@@ -22,15 +22,21 @@ abstract class AppTextStyle {
     color: AppColors.blackColor,
     fontFamily: AppString.fontFamilyPoppins
   );
-    static TextStyle grey24 = TextStyle(
-    fontSize: 24,
-    color: Colors.grey,
-    fontFamily: AppString.fontFamilyPoppins
-  );
+  //   static TextStyle grey24 = TextStyle(
+  //   fontSize: 24,
+  //   color: Colors.grey,
+  //   fontFamily: AppString.fontFamilyPoppins
+  // );
    static TextStyle white18 = TextStyle(
      fontWeight: FontWeight.w500,
     fontSize: 18,
     color: Colors.white,
+    fontFamily: AppString.fontFamilyPoppins
+  );
+  static TextStyle orange13 = TextStyle(
+    
+    fontSize: 13,
+    color: AppColors.primaryColor,
     fontFamily: AppString.fontFamilyPoppins
   );
 
